@@ -1,0 +1,9 @@
+
+footer {
+    display: flex;
+    border-top: 1px solid #cdcdcd;
+    justify-content: center;
+}
+.redes-sociais img{
+    width: 4%;
+}

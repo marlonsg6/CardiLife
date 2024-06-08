@@ -1,0 +1,75 @@
+main{
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1%;
+}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+nav{
+    border-right: 1px solid #cdcdcd;
+}
+ul {
+    list-style: none; 
+    }
+a { 
+        color:blue; 
+        text-decoration: none;
+}
+.menu li{
+    margin-top: 10%;
+}
+p{
+    text-align: justify;
+}
+span{
+    font-weight: bolder;
+}
+
+table{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+thead{
+    background-color: black;
+    color: white;
+    top: 0;
+}
+
+table tbody tr:nth-child(even){
+    background-color: lightgray;
+}
+
+.formulario label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.formulario .textarea{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.botao{
+    display: flex;
+    gap: 5px;
+}
+
+.botao #botao1{
+    margin-left: 100px;
+}

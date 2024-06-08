@@ -1,0 +1,16 @@
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcoral;
+}
+
+header .logo{
+    width: 200px;
+}
+
+header span{
+    font-weight: bolder;
+    font-size: 5em;
+}
