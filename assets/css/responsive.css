@@ -3,12 +3,13 @@
     max-width: 100%;
   }
 
-  header {
-    flex-direction: column;
+  header figure{
+    margin: 1em;
   }
 
   header .logo {
     width: 100px;
+    padding: 0;
   }
 
   header span{
